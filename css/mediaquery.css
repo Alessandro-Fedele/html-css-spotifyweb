@@ -1,0 +1,24 @@
+/* MOBILE FIRST*/
+/* --------------------- */
+
+/* Small T Min-w 490px */
+@media screen and (min-width: 480px) {
+    .side-bar {
+        width: 200px;
+    }
+
+    .none-elements {
+        display: inherit;
+    }
+
+}
+
+/* Tablet Min-w 768px */
+@media screen and (min-width: 768px) {
+
+}
+
+/* Desktop Min-w 1020px */
+@media screen and (min-width: 1024px) {
+
+}
