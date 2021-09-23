@@ -31,6 +31,16 @@
       display: flex;
   }
 
+  h1 {
+      font-size: 22px;
+      padding-top: 15px;
+      padding-bottom: 30px;
+  }
+
+  h3 {
+      font-size: 15px;
+  }
+
   /* SideBar */
 
   .side-bar {
@@ -74,7 +84,7 @@
       width: 100%;
       padding: 20px 5px 25px 0px;
       text-align: right;
-      background-color: #13111f96;
+      background-color: #070418ad;
   }
 
   #upgrade-button a {
@@ -83,14 +93,14 @@
       border: 1px solid white;
       border-radius: 20px;
       font-weight: 700;
-      font-size: 14px;
+      font-size: 13px;
       display: inline-block;
   }
 
   /* Navbar */
   .navbar {
       text-align: center;
-      line-height: 55px;
+      line-height: 50px;
   }
 
 
@@ -102,19 +112,14 @@
 
   .navbar a {
     font-weight: 800;
-    font-size: 14px;
+    font-size: 13px;
     color: #878787;
     padding: 0px 6px;
   }
 
   /* Album Container */
   section {
-      padding: 0px 16px;
-  }
-
-  h1 {
-      padding-top: 10px;
-      padding-bottom: 30px;
+      padding: 0px 16px 40px 16px;
   }
 
   .album-container {
@@ -132,6 +137,14 @@
       padding-bottom: 10px;
   }
 
+  .pad-t40 {
+      padding-top: 40px;
+  }
+
+  .pad-t30 {
+    padding-top: 30px;
+}
+
   .small-text {
       font-size: 12px;
       font-weight: 700;
@@ -141,6 +154,15 @@
       width: 100%;
   }
 
+  .rounded-img {
+      border-radius: 50%;
+  }
+
+  .marg-p-main {
+    margin-top: -15px;
+    padding-bottom: 28px;    
+  }
+
 
 
 
@@ -148,7 +170,7 @@
   /* FOTER MUSIC PLAYER  */
   .music-player-bar {
       width: 100%;
-      height: 80px;
+      height: 60px;
       background-color: #282828;
       display: flex;
   }

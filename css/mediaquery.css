@@ -1,7 +1,8 @@
 /* MOBILE FIRST*/
+/* 500px */
 /* --------------------- */
 
-/* Small T Min-w 490px */
+/* Small T Min-w 530px */
 @media screen and (min-width: 530px) {
     .side-bar {
         width: 200px;
