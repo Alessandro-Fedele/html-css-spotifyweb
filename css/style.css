@@ -233,9 +233,54 @@
   }
 
   .player-buttons {
-      flex-grow: 4;
+      display: flex;
+      flex-grow: 5;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
   }
 
-  .side-butttons {
-      flex-grow: 1;
+  .side-buttons {
+      display: flex;
+      /* flex-grow: 1; */
+      width: 20%;
+  }
+
+  .current-song {
+      display: flex;
+      padding: 20px 0px 20px 5px;
+      align-items: center;
+  }
+
+  .side {
+      width: 25%;
+      text-align: center;
+  }    
+
+  .center-title {
+      width: 50%;
+  }
+
+  .center-title p {
+      padding-left: 10px;
+  }
+
+  .up-buttons, .down-buttons {
+      display: flex;
+  }
+
+  .reproduction-time {
+      font-size: 11px;
+      font-weight: 600;
+  }
+
+  .reprod-line {
+      min-width: 160px;
+      padding: 5px 8px 0px 8px;
+  }
+
+  .reprod-line div {
+      height: 4px;
+      background-color: #878787;
+      border-radius: 10px;
   }
