@@ -5,11 +5,27 @@
 /* Small T Min-w 530px */
 @media screen and (min-width: 530px) {
     .side-bar {
-        width: 200px;
+        width: 160px;
     }
 
     .none-elements {
         display: inherit;
+    }
+
+    .logo-small {
+        display: none;
+    }
+
+    .logo-big {
+        display: block;
+    }
+
+    .logo {
+        height: 75px;
+    }
+
+    .arrow {
+        border-bottom: 1px solid white;
     }
 
 }

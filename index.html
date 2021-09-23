@@ -20,39 +20,39 @@
                 <div class="up-sidebar">
                     <!-- LOGO -->
                     <div class="logo">
-                        <img src="img/logo-small.svg" alt="Logo small">    
+                        <img class="logo-small" src="img/logo-small.svg" alt="Logo small">
+                        <img class="logo-big none-elements" src="img/logo.svg" alt="Logo" style="width: 80%; height: 100%;">    
                     </div>
                     <!-- Home -->
                     <div class="home">
-                        <div>
+                        <div class="sidebar-img-cont">
                             <img src="img/home.svg" alt="Home">
                         </div>
-                        <div class="none-elements white-text">
-                            Home
+                        <div class="none-elements white-text small-text">
+                            <p>Home</p>
                         </div>
                     </div>
                     <!-- Cerca -->
                     <div class="search">
-                        <div>
+                        <div class="sidebar-img-cont">
                             <img src="img/search.svg" alt="Cerca">
                         </div>
-                        <div class="none-elements grey-text">
-                            Cerca
+                        <div class="none-elements grey-text small-text">
+                            <p>Cerca</p>
                         </div>
                     </div>
                     <!-- La tua libreria -->
                     <div class="library">
-                        <div>
+                        <div class="sidebar-img-cont">
                             <img src="img/libreria.svg" alt="Libreria">
                         </div>
-                        <div class="none-elements grey-text">
-                            La tua libreria
+                        <div class="none-elements grey-text small-text">
+                            <p>La tua libreria</p>
                         </div>
                     </div>
                 </div>
                 <!-- Center-side-bar -->
-                <div class="playlist">
-
+                <div class="playlist">       
                     <ul>
                         
 
@@ -60,20 +60,20 @@
                 </div>
                 <!-- Down-side-bar -->
                 <div class="down-sidebar">
-                    <div>
-                        <div>
-                            <img src="img/download.svg" alt="Download">
+                    <div class="arrow" style="padding-bottom: 0px;">
+                        <div id="small-arrow">
+                            <img src="img/download.svg" alt="Download" style="width: 16px; height: 16px;">
                         </div>
-                        <div class="none-elements grey-text">
-                            Installa app
+                        <div class="none-elements grey-text small-text">
+                            <p style="padding-bottom: 12px;">Installa app</p>
                         </div>
                     </div>
-                    <div>
+                    <div class="user">
                         <div>
-                            <img src="img/profile.svg" alt="Profilo">
+                            <img id="user-img" src="img/profile.svg" alt="Profilo">
                         </div>
                         <div class="none-elements">
-                            John Doe
+                            <h4 class="white-text">John Doe</h4>
                         </div>
                     </div>
 
@@ -239,10 +239,8 @@
 
 
                 </section>
-
             </div>
         </div>
-
         <!-- Music player Bar -->
         <div class="music-player-bar">
             <!-- Right -->
