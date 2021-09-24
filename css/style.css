@@ -341,7 +341,8 @@
 
   .line2 {
       width: 78px;  
-      padding: 4px 5px 0px 5px;
+      height: 30px;
+      padding: 15px 5px 0px 5px;
   }
 
 
@@ -428,8 +429,28 @@
     height: 4px;
     border-radius: 10px;
     width: 30%;
-    color: #adff2f;
+    background-color: #c1c1c1;
+    position: relative;
   }
+
+  .down-buttons:hover .process-line {
+      background-color: #adff2f;
+  }
+
+  .round-mov {
+      position: absolute;
+      right: -5px;
+      bottom: -3.5px;
+      width: 12px;
+      height: 12px;
+      background-color: white;
+      border-radius: 50%;
+  }
+
+  .line2:hover .process-line {
+    background-color: #adff2f;
+}
+
 
 
 
