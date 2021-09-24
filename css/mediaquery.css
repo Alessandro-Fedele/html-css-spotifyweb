@@ -2,7 +2,7 @@
 /* 500px */
 /* --------------------- */
 
-/* Small T Min-w 530px */
+/* Smartphone 530px */
 @media screen and (min-width: 530px) {
     .side-bar {
         width: 160px;
@@ -28,6 +28,13 @@
         border-bottom: 1px solid white;
     }
 
+    .folder {
+        display: flex;
+    }
+
+    .folder :nth-child(1) {
+        padding-right: 4px;
+    }
 }
 
 /* Tablet Min-w 768px */
@@ -35,7 +42,6 @@
     .album {
         width: calc(25% - 10px);
     }
-
 }
 
 /* Desktop Min-w 1020px */
@@ -43,5 +49,4 @@
     .album {
         width: calc(100% / 6 - 10px);
     }
-
 }

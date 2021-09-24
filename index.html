@@ -25,32 +25,38 @@
                         <img class="logo-big none-elements" src="img/logo.svg" alt="Logo" style="width: 80%; height: 100%;">    
                     </div>
                     <!-- Home -->
-                    <div class="home">
-                        <div class="sidebar-img-cont">
-                            <img src="img/home.svg" alt="Home">
+                    <a href="#">
+                        <div class="home">
+                            <div class="sidebar-img-cont">
+                                <img src="img/home.svg" alt="Home">
+                            </div>
+                            <div class="none-elements white-text small-text">
+                                <p>Home</p>
+                            </div>
                         </div>
-                        <div class="none-elements white-text small-text">
-                            <p>Home</p>
-                        </div>
-                    </div>
+                    </a>
                     <!-- Cerca -->
-                    <div class="search">
-                        <div class="sidebar-img-cont">
-                            <img src="img/search.svg" alt="Cerca">
+                    <a href="">
+                        <div class="search">
+                            <div class="sidebar-img-cont">
+                                <img src="img/search.svg" alt="Cerca">
+                            </div>
+                            <div class="none-elements grey-text small-text">
+                                <p>Cerca</p>
+                            </div>
                         </div>
-                        <div class="none-elements grey-text small-text">
-                            <p>Cerca</p>
-                        </div>
-                    </div>
+                    </a>
                     <!-- La tua libreria -->
-                    <div class="library">
-                        <div class="sidebar-img-cont">
-                            <img src="img/libreria.svg" alt="Libreria">
+                    <a href="#">
+                        <div class="library">
+                            <div class="sidebar-img-cont">
+                                <img src="img/libreria.svg" alt="Libreria">
+                            </div>
+                            <div class="none-elements grey-text small-text">
+                                <p>La tua libreria</p>
+                            </div>
                         </div>
-                        <div class="none-elements grey-text small-text">
-                            <p>La tua libreria</p>
-                        </div>
-                    </div>
+                    </a>
                 </div>
                 <!-- Center-side-bar -->
                 <div class="playlist">   
@@ -122,7 +128,7 @@
                 <!-- Navbar -->
                 <div class="navbar">
                     <ul>
-                        <li>
+                        <li id="evidenza">
                             <a href="#">IN EVIDENZA</a>
                         </li>
                         <li>
@@ -285,9 +291,17 @@
                             Nome
                         </p>
                     </div>
-                    <div class="side">
-                        <i class="far fa-heart"></i>
-                        <i class="far fa-folder"></i>
+                    <div class="side folder">
+                        <div>
+                            <a href="#">
+                                <i class="far fa-heart"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <i class="far fa-folder"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -295,19 +309,29 @@
             <div class="player-buttons">
                 <div class="up-buttons">
                     <div>
-                        <i class="fas fa-random"></i>
+                        <a href="#">
+                            <i class="fas fa-random"></i>
+                        </a>
                     </div>
                     <div>
-                        <i class="fas fa-step-backward"></i>
+                        <a href="#">
+                            <i class="fas fa-step-backward"></i>
+                        </a>
+                    </div>
+                    <div id="play-button">
+                        <a href="#">
+                            <i class="far fa-play-circle"></i>
+                        </a>
                     </div>
                     <div>
-                        <i class="far fa-play-circle"></i>
+                        <a href="#">
+                            <i class="fas fa-step-forward"></i>
+                        </a>
                     </div>
                     <div>
-                        <i class="fas fa-step-forward"></i>
-                    </div>
-                    <div>
-                        <i class="fas fa-redo"></i>
+                        <a href="#">
+                            <i class="fas fa-redo"></i>
+                        </a>
                     </div>
                 </div>
                 <div class="down-buttons">
@@ -315,7 +339,7 @@
                         <p>0:25</p>
                     </div>
                     <div class="reprod-line">
-                        <div></div>
+                        <div class="line-style"></div>
                     </div>
                     <div class="reproduction-time white-text">
                         <p>4:35</p>
@@ -324,6 +348,26 @@
             </div>
             <!-- Left -->
             <div class="side-buttons">
+                <div class="volume">
+                    <div>
+                        <a href="#">
+                            <i class="fas fa-list-ul"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <i class="fas fa-tv"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <i class="fas fa-volume-up"></i>
+                        </a>
+                    </div>
+                    <div class="line2">
+                        <div class="line-style"></div>
+                    </div>
+                </div>
 
             </div>
         </div>
