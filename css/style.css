@@ -99,9 +99,11 @@
       flex-shrink: 0;
   }
 
-  .down-sidebar {
-      /* position: relative;
-      z-index: 50; */
+  .down-sidebar a {
+      padding-bottom: 12px;
+      padding-left: 6px;
+      color: #878787;
+      
   }
   
   /* sidebar - playlist */
@@ -192,6 +194,10 @@
       flex-wrap: wrap;
       gap: 10px;
   }
+  
+  .img-container {
+      position: relative;
+  }
 
   .album {
       text-align: center;
@@ -202,12 +208,21 @@
       padding-bottom: 10px;
   }
 
+  .pad-t10 {
+      padding-top: 10px;
+  }
+
   .pad-t40 {
       padding-top: 40px;
   }
 
   .pad-t30 {
     padding-top: 30px;
+}
+
+.marg-neg {
+    margin-top: -15px;
+    padding-bottom: 25px;
 }
 
   .small-text {
@@ -221,11 +236,6 @@
 
   .rounded-img {
       border-radius: 50%;
-  }
-
-  .marg-p-main {
-    margin-top: -15px;
-    padding-bottom: 28px;    
   }
 
   /* FOTER MUSIC PLAYER  */
@@ -253,7 +263,7 @@
 
   .current-song {
       display: flex;
-      padding: 20px 0px 10px 5px;
+      padding: 18px 0px 16px 5px;
       align-items: center;
   }
 
@@ -366,6 +376,61 @@
       transform: scale(1.1);
       margin-right: 10px;
   }
+
+  .img-container:hover .overlay {
+      display: block;
+  }
+
+  .overlay {
+      display: none;
+      width: 100%;
+      height: 99%;
+      background-color: rgba(0, 0, 0, 0.295);
+      position: absolute;
+      top: 0;
+      left: 0;   
+  }
+
+  .overlay i {
+      position: absolute;
+      top: calc(50% - 10px);
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 40px;
+  }
+
+  .over-radius {
+      border-radius: 50%;
+  }
+  
+  .side-bar a:hover {
+      color: white;
+  }
+
+  .up-sidebar div:hover {
+      color: white;
+  }
+
+  .center-title p:hover {
+      text-decoration: underline;
+  }
+
+  .folder a:hover {
+      color: white;
+  }
+
+  #play-button:hover {
+      transform: scale(1.3);
+  }
+
+  .process-line {
+    height: 4px;
+    border-radius: 10px;
+    width: 30%;
+    color: #adff2f;
+  }
+
 
 
   
